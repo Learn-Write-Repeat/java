@@ -25,7 +25,7 @@ For understanding, We can see an example of creating a Hello World program in an
 
 > Note: Major IDE's have same style setup while creating a project.
 
-I'm taking IntelliJ IDEA. You can download it from [above](#Popular%20Java%20IDE's).
+I'm taking IntelliJ IDEA. You can download it from [above](#popular-java-ides).
 
 And I'm assuming that you are installed JDK already. If you've not done before checkout [here](https://www.wikihow.com/Install-the-Java-Software-Development-Kit).
 
