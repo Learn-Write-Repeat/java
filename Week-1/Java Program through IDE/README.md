@@ -77,7 +77,7 @@ Let's START,
 
 That's all about Java program through IDE.
 
-> I added a file HelloWorld.java for example. You can use it either in IDE or command-line.
+> I added a file [HelloWorld.java](HelloWorld.java) for example. You can use it either in IDE or command-line.
 
 ## Author
 [NanthaKumar](https://github.com/nknantha)
