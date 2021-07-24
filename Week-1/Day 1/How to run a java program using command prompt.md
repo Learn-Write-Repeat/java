@@ -30,7 +30,7 @@ Type the following to write your first ever Java program
 
 Once done we have to save it. 
 
-Notice that we will be saving our Java files with <b> the same name as our class name</b>
+Notice that we will be saving our Java files with <b> the same name as our class name with the extension java</b>
 
 <img src = "https://github.com/sreelakshmig009/java/blob/day-1-sreelakshmi/Week-1/Day%201/Step%205.png">
 
