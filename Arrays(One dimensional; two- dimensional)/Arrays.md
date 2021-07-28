@@ -46,7 +46,7 @@
 }
 ```
 
-<img src = "![image](https://user-images.githubusercontent.com/81172589/127369432-abf6cc4b-1553-4a56-8ada-f7e5e0fea7df.png)">
+<img src = "https://user-images.githubusercontent.com/81172589/127369432-abf6cc4b-1553-4a56-8ada-f7e5e0fea7df.png">
 
 #### Getting input for arrays using Scanner class
 
@@ -80,9 +80,82 @@ class OnedimensionalScanner
    }
 }
 ```
-<img src = "![image](https://user-images.githubusercontent.com/81172589/127370435-23a10b71-7cb2-4696-89ad-1c9ddeb6d891.png)">
+<img src = "https://user-images.githubusercontent.com/81172589/127370435-23a10b71-7cb2-4696-89ad-1c9ddeb6d891.png">
 
 #### Using For Loop – One Dimensional Array
+
+```
+class OnedimensionalLoop
+{
+	public static void main(String args[])
+	{    
+	   int a[]={10,20,30,40,50};//declaration and initialization  	  
+	   System.out.println("One dimensional array elements are :\n");    
+	   for(int i=0;i<a.length;i++)  
+	   {
+		System.out.println("a["+i+"]:"+a[i]);    
+	   }	
+	}
+}
+```
+
+<img src ="https://user-images.githubusercontent.com/81172589/127370635-ff65f132-ce27-4830-81c0-d2599f554085.png">
+
+### Two Dimensional Arrays
+
+* Two Dimensional Array in Java programming language is nothing but an Array of Arrays
+
+*  In Java's Two Dimensional Arrays, data stored in row and columns, and we can access the record using both the row index and column index 
+
+* To work with multi-level data, we have to use the Multi-Dimensional Array. 
+
+#### Declaring a two dimensional array
+
+```
+class TwodimensionalStandard
+{
+	public static void main(String args[])
+	{    
+	int[][] a={{10,20},{30,40}};//declaration and initialization   
+	System.out.println("Two dimensional array elements are");    
+	System.out.println(a[0][0]);    
+	System.out.println(a[0][1]);    
+	System.out.println(a[1][0]);    
+	System.out.println(a[1][1]);    	
+	}
+}
+```
+<img src = "https://user-images.githubusercontent.com/81172589/127374955-418b7152-9711-4b29-aba6-78910338d308.png" >
+
+#### Using for loop
+
+```
+class TwodimensionalLoop
+{
+	public static void main(String args[])
+	{    
+	int[][] a={{10,20},{30,40},{50,60}};//declaration and initialization   
+	System.out.println("Two dimensional array elements are");    
+	for (int i = 0; i < 3; i++) 
+	{
+            for (int j = 0; j < 2; j++) 
+	    {
+                System.out.println(a[i][j]);
+            }
+	}
+	}
+}
+```
+
+<img src ="https://user-images.githubusercontent.com/81172589/127375067-515e0de3-1c44-4236-9528-292a30c661f8.png">
+
+#### Using Scanner class
+
+* Read the row length, column length of an array using sc.nextInt() method of Scanner class.
+
+* Declare the array with the dimension row, column.
+
+* for i=0 to i<row for j=0 to j<column sc.nextInt() reads the entered number and insert the element at a[i][j]
 
 ```
 
@@ -98,18 +171,55 @@ class OnedimensionalScanner
 10
 11
 12
-class OnedimensionalLoop
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+import java.util.*;
+class TwoDimensionalScanner
 {
-	public static void main(String args[])
-	{    
-	   int a[]={10,20,30,40,50};//declaration and initialization  	  
-	   System.out.println("One dimensional array elements are :\n");    
-	   for(int i=0;i<a.length;i++)  
-	   {
-		System.out.println("a["+i+"]:"+a[i]);    
-	   }	
-	}
+   public static void main(String args[])
+   {    
+	
+	Scanner sc=new Scanner(System.in);
+	System.out.println("Enter Row length of an array : ");
+	int row=sc.nextInt();
+	System.out.println("Enter column length of an array : ");
+	int column=sc.nextInt();
+	int a[][]=new int[row][column];//declaration    	 
+	System.out.print("Enter " + row*column + " Elements to Store in Array :\n");
+        for (int i = 0; i < row; i++)
+	{
+	    for(int j = 0; j < column; j++)
+	    {
+           	a[i][j] = sc.nextInt();
+	    }
+	}   
+        System.out.print("Elements in Array are :\n");
+        for (int i = 0; i < row; i++)
+	{
+	    for(int j = 0; j < column; j++)
+	    {
+	       System.out.println("Row ["+i+"]:  Column ["+j+"] :"+a[i][j]);
+ 	    }
+	}  
+   }
 }
 ```
 
-<img src ="![image](https://user-images.githubusercontent.com/81172589/127370635-ff65f132-ce27-4830-81c0-d2599f554085.png)">
+<img src ="https://user-images.githubusercontent.com/81172589/127375287-a7d97189-5c5e-4b28-be03-591f16b1c0bc.png">
+
