@@ -22,7 +22,6 @@ if (condition)
 {
   ---- body statements -----
 }
-
 else
 {
   ---- body statements ------
@@ -37,7 +36,6 @@ class Main //class name
 	public static void main(String[] args) {
 	    Scanner in =new Scanner(System.in);
 	    int i=in.nextInt();                 // Accept the value of i from the user .
-
 	     if(i==1)                      // if condition i==1
 	     {
 	         System.out.println("Hello World ! "); // if the condition i==1 is true .
@@ -61,7 +59,6 @@ if (condition 1)
 {
   ---- body statements  -----
 }
-
 else
 {
   if (condition 2)
@@ -69,7 +66,6 @@ else
         ------ body statements  ------
       }
 }
-
 ```
 
 
@@ -79,7 +75,6 @@ if (condition 1)
 {
   ---- body statements -----
 }
-
 else
 {
   if (condition 2)
@@ -90,9 +85,7 @@ else
       {
         ------ body statements ------
        }
-
 }
-
 ```
 
 
@@ -104,7 +97,6 @@ class else-if //class name
 	public static void main(String[] args) {
 	    Scanner in =new Scanner(System.in);
 	    int i=in.nextInt();                 // Accept the value of i from the user .
-
 	     if(i==2)                      // if condition i==2 .
 	     {
 	         System.out.println("Hello World ! "); // if the condition i==2 is true .
@@ -120,3 +112,35 @@ class else-if //class name
 	}
 }
 ```
+# if -else - if
+
+* Java uses else if to add multiple conditions .
+* Code block gets executed only if the condition is true .
+* It is used to test the conditions .
+* You can use multiple else- if conditions . Before using else-if , condition of if has to be there .
+* At the end if neither of the conditions are true , execution of else block
+ can be there .
+
+ #### Syntax
+ ```java
+ if (condition 1)
+ {
+       ---- body statements -----
+ }
+ else if (condition 2)
+ {
+
+         ------ body statements ------
+ }
+ else if (condition 3)
+ {
+         ------ body statements ------
+ }
+ else          // if conditions are found false , the execution of else will be there .
+ {
+    ------ body statements ------
+ }
+ ```
+ 
+ ##### Author
+###### [MayuriMahajan](https://github.com/Mayuri-cell)
