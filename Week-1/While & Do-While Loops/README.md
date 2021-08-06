@@ -4,6 +4,24 @@ The Java while loop is used to iterate a part of the program repeatedly until th
 
 Java while loop is called an entry control loop because condition is specified at the start itself.
 
+Loops consists of 3 parts:
+- initialization expression (initializing the loop variable)
+- conditional expression  (limit for the loop to run )
+- increment/decrement of looping variable
+
+### *initialization expression*
+Initialization occurs once, as the loop begins.
+Initialization usually consists of a single variable declaration 
+Eg: int x = 0
+
+### *conditional expression/ termination expression*
+The termination expression is evaluated and if true, execution continues with the statement (loop body).
+The loop body will never be executed if the termination expression is immediately false.
+The loop terminates when the termination expression evaluates to false.
+
+### *increment/decrement of looping variable*
+The increment expression is invoked after each iteration of the loop.
+
 
 ### Syntax
 ```java
@@ -37,11 +55,12 @@ class While {
 
     // Static method contains example code.
     public static void run() {
-            int i=1;
-            while(i<=3)                 // while starts
+            int i=1;            // initialization expression
+            while(i<=3)                 // while starts(conditional expression in the brackets)
             {
-                System.out.println("HI");     // prints 'HI' three times since i iterates from 1 to 3
-            }
+                System.out.println("HI");   // prints 'HI' three times since i iterates from 1 to 3
+                i=i+1;              //increment of looping variable
+            }       
             
     }
 }
@@ -51,11 +70,12 @@ class DoWhile {
 
     // Static method contains example code.
     public static void run() {
-            int i=1;
+            int i=1;                // initialization expression
              do               // dowhile starts
             {
-                System.out.println("HI");     // prints 'HI' three times since i iterates from 1 to 3
-            }while(i<=3);               // condition
+                System.out.println("HI");   // prints 'HI' three times since i iterates from 1 to 3
+                i=i+1;              //increment of looping variable
+            }while(i<=3);               // conditional expression in the brackets
             
     }
 }
