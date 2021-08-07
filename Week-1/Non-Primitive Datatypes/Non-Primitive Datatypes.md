@@ -36,7 +36,7 @@
 `School sc = new School();`
 
 ## Types of Non-primitive Data types
-### There are five types of non-primitive data types in Java. They are as follows:
+### There are four types of non-primitive data types in Java. They are as follows:
 1. **Class and objects**: Every class is data type and it is also considered as user-defined data types. This is because a user                           creates a class.
 
 2. **String**: A string represents a sequence of characters like India, ABC123, etc. The simplest way to create a string object                is by storing sequence of characters into string type variable like this:
