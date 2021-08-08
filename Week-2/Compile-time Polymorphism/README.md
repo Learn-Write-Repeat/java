@@ -13,7 +13,9 @@ There are 2 types of polymorphism,
 ## Compile-time Polymorphism
 An object's functionality resolved at compile time rather than run-time is known
 as Compile-time Polymorphism. Compile-time polymorphism is achieved through method
-overloading. It is also known as static polymorphism, early binding and overloading.
+overloading. It provides fast execution because the method that needs to be
+executed is known early at the compile time. It is also known as static polymorphism,
+early binding and overloading.
 
 
 ## Method Overloading
