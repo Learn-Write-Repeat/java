@@ -112,6 +112,7 @@ import org.apache.commons.lang3.ArrayUtils;
 
     - We can use two static methods provided by the **Java** Util class, *toString()* (doesn't work well with multi-dimensional arrays) or *deepToString()* (supports all Object-based arrays but will not compile with primitive array arguments).
     - In contrast, **Apache's** implementation provides a single function *toString()* that works in all cases.
-- Values in an Array Can Be Filtered
+
+- ### **Values in an Array Can Be Filtered**
 
     Many of us will have to perform the task of filtering out values from a collection on multiple occasions. We don't know the final size of the array when we create it. In order to do this, we'll have to use the Streams approach once.
