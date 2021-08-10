@@ -42,7 +42,7 @@ than checked Exception thrown by the overridden method.
   
 #### 3. Visibility
 The overriding method cannot reduce the accessibility of the overridden method.
-i.e. the public overriding method cannot override a private overridden method.
+i.e. the private overriding method cannot override a public overridden method.
 You cannot reduce the visibility of inherited method of a class.
   
 #### 4. Accessibility
@@ -52,7 +52,7 @@ then the overriding method can be protected or public.
   
 #### 5. Type of Methods
 Access modifier specified as private, final and static methods cannot be overridden
-in Java. This provides security to methods. If tried to override them compiler
+in Java. This provides security to methods. If you tried to override them compiler
 throws an error.
   
 #### 6. Return Type
