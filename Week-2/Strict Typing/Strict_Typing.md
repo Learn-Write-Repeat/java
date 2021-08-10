@@ -7,9 +7,7 @@ int i = 3
 string s = "4"
 ```
 
-> From now on, whenever you use I you will only be able to interact with it as an integer type. That means you can only use it with methods that work with integers.
-
-> Strings can only be interacted with as string types. It can be concatenated with other strings, printed, and so on. Despite the fact that it contains the character "4", you cannot add to an integer without first converting the string to an integer type.
+> From now on, whenever you use I you will only be able to interact with it as an integer type. That means you can only use it with methods that work with integers. Strings can only be interacted with as string types. It can be concatenated with other strings, printed, and so on. Despite the fact that it contains the character "4", you cannot add to an integer without first converting the string to an integer type.
 
 ### F**lexibility in a dynamically typed language**
 
@@ -22,4 +20,4 @@ s = "4"
 
 ### **Present Scenario**
 
-Loosely typed languages have become very popular because of their flexibility. This can lead to more bugs if you aren't careful because these type inferences can produce unexpected results. When performing I + s in a typed language, the compiler forces me to convert s to an explicit int first, so I know that by adding I to s, I will get 7 because s had to be converted first. Any string, number, or even an object can be in I or s in a dynamic language, but the results may not be what you expected. Until you run your code and see what happens, you won't know.
+> Loosely typed languages have become very popular because of their flexibility. This can lead to more bugs if you aren't careful because these type inferences can produce unexpected results. When performing I + s in a typed language, the compiler forces me to convert s to an explicit int first, so I know that by adding I to s, I will get 7 because s had to be converted first. Any string, number, or even an object can be in I or s in a dynamic language, but the results may not be what you expected. Until you run your code and see what happens, you won't know.
