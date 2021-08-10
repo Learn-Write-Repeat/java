@@ -18,8 +18,8 @@ It is a basic unit of Object-Oriented Programming and represents the real life e
 3.	Identity: It gives a unique name to an object and enables one object to interact with other objects.
 Declaring Objects (Also called instantiating a class)
 When an object of a class is created, the class is said to be instantiated. All the instances share the attributes and the behavior of the class. But the values of those attributes, i.e. the state are unique for each object. A single class may have any number of instances.
+
 Example: 
- 
 As we declare variables like (type name;). This notifies the compiler that we will use name to refer to data whose type is type. With a primitive variable, this declaration also reserves the proper amount of memory for the variable. So for reference variable, type must be strictly a concrete class name. In general, we can’t create objects of an abstract class or an interface.  
 Dog tuffy;
 If we declare reference variable(tuffy) like this, its value will be undetermined(null) until an object is actually created and assigned to it. Simply declaring a reference variable does not create an object.
