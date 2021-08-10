@@ -1,8 +1,6 @@
 # **Array Operations in Java**
 
-> Array operations are notoriously difficult for Java developers to implement in a clean, efficient manner. We will have to deal with them on a number of occasions. In order to solve the puzzle quickly, it is helpful to have a 'cheat sheet' – a summary of the most common procedures.
-
-> In a certain sense, array operations are limited. For this reason, we'll be using Java's Arrays class and Apache's ArrayUtils class for most of our operations.
+> Array operations are notoriously difficult for Java developers to implement in a clean, efficient manner. We will have to deal with them on a number of occasions. Array operations are limited. For this reason, we'll be using Java's Arrays class and Apache's ArrayUtils class for most of our operations.
 
 ```java
 import java.util.Arrays;
