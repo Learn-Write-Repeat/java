@@ -2,7 +2,7 @@
 
 > Symbol for performing operations in Java is called a "operator." As an example, +, -, *, /, etc. can be used. As well as addition, subtraction, multiplication, and division, the Java arithmetic operators can be used. Essentially, they are mathematical operations of the most basic kind.
 
-- Example 1
+- ### **Example 1**
 
 ```java
 //Source Code
@@ -31,7 +31,7 @@ public class DevIncept{
 0
 ```
 
-- Example 2
+- ### **Example 2**
 
 ```java
 //Source Code
