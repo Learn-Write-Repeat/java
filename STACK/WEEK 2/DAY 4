@@ -117,6 +117,5 @@ It is a recurring process.
 It is an infinite loop.
 No additional overheads allowed during the execution of an algorithm.
 Cons of Mark and Sweep
-
 It stops the normal program execution while the garbage collection algorithm runs.
 It runs multiple times on a program.
