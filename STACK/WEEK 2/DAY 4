@@ -28,7 +28,8 @@ Code Cache
 Reference Type
 There are four types of references: Strong, Weak, Soft, and Phantom reference. The difference among the types of references is that the objects on the heap they refer to are eligible for garbage collecting under the different criteria.
 
-Strong reference: It is very simple as we use it in our daily programming. Any object which has Strong reference attached to it is not eligible for garbage collection. We can create a strong reference by using the following statement:
+Strong reference:
+It is very simple as we use it in our daily programming. Any object which has Strong reference attached to it is not eligible for garbage collection. We can create a strong reference by using the following statement:
 
 StringBuilder sb= new StringBuilder();  
 Weak Reference: It does not survive after the next garbage collection process. If we are not sure when the data will be requested again. In this condition, we can create a weak reference to it. In case, if the garbage collector processes, it destroys the object. When we again try to retrieve that object, we get a null value. It is defined in java.lang.ref.WeakReference class. We can create a weak reference by using the following statement:
