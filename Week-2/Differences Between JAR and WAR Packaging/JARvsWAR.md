@@ -1,4 +1,4 @@
-# Untitled
+### **Differences Between JAR and WAR Packaging**
 
 > **JAR**, or Java Archive, is a file format for storing packages. It is possible for JAR files to contain libraries, resources and metadata files. What it is, in essence, is a zip file containing the compressed versions of Java class files and resources. JAR files can be created with the .jar command or with tools such as Maven.
 
@@ -28,3 +28,21 @@ WEB-INF/
         application.properties
     lib/
 ```
+<table align="center">
+    <tr align="center">
+        <th>JAR</th>
+        <th>WAR</th>
+    </tr>
+    <tr align="left">
+        <td>It allow us to package multiple files into a library, plugin, or any other type of application that we wish to use</td>
+        <td>A WAR file is only used for web-based software applications.</td>
+    </tr>
+    <tr align="left">
+        <td>We are able to create a JAR with any structure that you desire.</td>
+        <td>The WEB-INF and META-INF directories are predefined in WAR.</td>
+    </tr>
+    <tr align="left">
+        <td>It is possible to run a JAR directly from the command line if it is built as an executable JAR</td>
+        <td>A WAR must be run on a server.</td>
+    </tr>
+</table>
