@@ -1,6 +1,6 @@
 // POJO class Exmaple
 package Jtp.PojoDemo;
-public class Employee {
+public class Employee1 {
 private String name;
 private String id;
 private double sal;
