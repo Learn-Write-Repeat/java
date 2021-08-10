@@ -1,4 +1,4 @@
-### **Differences Between JAR and WAR Packaging**
+# **Differences Between JAR and WAR Packaging**
 
 > **JAR**, or Java Archive, is a file format for storing packages. It is possible for JAR files to contain libraries, resources and metadata files. What it is, in essence, is a zip file containing the compressed versions of Java class files and resources. JAR files can be created with the .jar command or with tools such as Maven.
 
