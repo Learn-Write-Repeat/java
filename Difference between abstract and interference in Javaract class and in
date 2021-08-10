@@ -3,7 +3,8 @@ Abstraction: Hiding the internal implementation of the feature and only showing 
 
 >Abstract class vs Interface 
 
-Type of methods: Interface can have only abstract methods. An abstract class can have abstract and non-abstract methods. From Java 8, it can have default and static methods also.
+Type of methods: 
+Interface can have only abstract methods. An abstract class can have abstract and non-abstract methods. From Java 8, it can have default and static methods also.
 Final Variables: Variables declared in a Java interface are by default final. An abstract class may contain non-final variables.
 Type of variables: Abstract class can have final, non-final, static and non-static variables. The interface has only static and final variables.
 Implementation: Abstract class can provide the implementation of the interface. Interface can’t provide the implementation of an abstract class.
