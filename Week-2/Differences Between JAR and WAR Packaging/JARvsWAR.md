@@ -10,7 +10,7 @@ com/
         MyApplication.class
 ```
 
-> WAR stands for Web Application Archive or Web Application Resource. These .war files are used to package web applications that we can deploy on any Servlet/JSP container. To create a .war archive, we can use the same tools and commands that we used to create a JAR.
+> **WAR** stands for Web Application Archive or Web Application Resource. These .war files are used to package web applications that we can deploy on any Servlet/JSP container. To create a .war archive, we can use the same tools and commands that we used to create a JAR.
 
 ```java
 META-INF/
