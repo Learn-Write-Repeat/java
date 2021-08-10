@@ -1,8 +1,4 @@
 Difference between Abstract Class and Interface in Java
-Difficulty Level : Easy
-Last Updated : 12 Jul, 2021
-Prerequisite – Interface, Abstract Class 
-
 Abstraction: Hiding the internal implementation of the feature and only showing the functionality to the users. i.e. what it works (showing), how it works (hiding). Both abstract class and interface are used for abstraction. 
 
 Abstract class vs Interface 
