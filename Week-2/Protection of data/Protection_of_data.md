@@ -1,6 +1,6 @@
 # Protection of data
 
-Classes, variables, methods, and constructors can be given different levels of access using Java's various access modifiers for **protection of data**.
+### Classes, variables, methods, and constructors can be given different levels of access using Java's various access modifiers for protection of data.
 
 - ### **Each of the four levels of access is described below.**
     - This is the default visibility setting for a given package. There is no need for modifiers.
