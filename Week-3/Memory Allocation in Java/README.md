@@ -29,7 +29,7 @@ is empty it throws `EmptyStackException`.
 - **Object peek():** Returns the top element in the stack, without removing.
 - **Boolean empty():** Returns `true` if stack is empty, else it gives `false`.
 - **int search(Object element):** Searches given element inside stack and gives
-the position of that element inside stack. If element not found it gives -1.
+the position of that element inside stack. If element not found it gives `-1`.
   
   
 ## Heap Space
