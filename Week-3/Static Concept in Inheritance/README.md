@@ -18,12 +18,12 @@ Class Fruit:
 class Fruit {
 
     // Static method.
-    public static void whoAreYou() {
+    public static void staticMethod() {
         System.out.println("I'm a static method, from Fruit class.");
     }
 
     // Instance method.
-    public void whoAreYou() {
+    public void instanceMethod() {
         System.out.println("I'm an instance method, from Fruit class.");
     }
 }
@@ -34,12 +34,12 @@ Class Apple:
 class Apple extends Fruit {
 
     // Static method.
-    public static void whoAreYou() {
+    public static void staticMethod() {
         System.out.println("I'm a static method, from Apple class.");
     }
 
     // Instance method.
-    public void whoAreYou() {
+    public void instanceMethod() {
         System.out.println("I'm an instance method, from Apple class.");
     }    
 }
@@ -57,14 +57,13 @@ public class StaticInheritance {
 
         Apple myApple = new Apple();
         Fruit myFruit = myApple;
-        Fruit.whoAreYou();
-        myFruit.whoAreYou();
-        // myApple.whoAreYou();
+        Fruit.staticMethod();
+        myFruit.instanceMethod();
     }
 }
 ```
 Creating object for Apple class then upcasting it to parent class Fruit. Then it
-invokes the Fruit class method `whoAreYou()` and instance method `whoAreYou()`.
+invokes the Fruit class method `staticMethod()` and instance method `instanceMethod()`.
   
 > *You can find the above code on [StaticInheritance.java](StaticInheritance.java).*
   
