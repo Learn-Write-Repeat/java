@@ -4,7 +4,7 @@ There are three types of variables in Java:
 
 * Local Variables
 * Instance Variables
-* Static Variables
+* Reference variables
 
 ### Local Variables: 
 A variable defined within a block or method or constructor is called local variable. 
@@ -18,14 +18,11 @@ As instance variables are declared in a class, these variables are created when 
 Unlike local variables, we may use access specifiers for instance variables. If we do not specify any access specifier then the default access specifier will be used.
 Initilisation of Instance Variable is not Mandatory. Its default value is 0
 Instance Variable can be accessed only by creating objects.
-### Static Variables:
-Static variables are also known as Class variables. 
-These variables are declared similarly as instance variables, the difference is that static variables are declared using the static keyword within a class outside any method constructor or block.
-Unlike instance variables, we can only have one copy of a static variable per class irrespective of how many objects we create.
-Static variables are created at the start of program execution and destroyed automatically when execution ends.
-Initilisation of Static Variable is not Mandatory. Its default value is 0
-If we access the static variable like Instance variable (through an object), the compiler will show the warning message and it won’t halt the program. The compiler will replace the object name to class name automatically.
-If we access the static variable without the class name, Compiler will automatically append the class name.
+### Reference variables:
+When we create an object (instance) of class then space is reserved in heap memory. To access that allocated space we use a pointer variable this pointer variable is also known as reference variable. Classes, interfaces, arrays, enumerations, and, annotations are reference types in Java. Reference variables hold the objects/values of reference types in Java.
+Reference variable can also store null value. By default, if no object is passed to a reference variable then it will store a null value.
+
+
 
 
 ```Example :```
@@ -37,9 +34,10 @@ public class VariableExample{
    public static void main(String args[]){
       int a = 100;
       VariableExample obj = new VariableExample();
+      VariableExample obj1 = obj ; //pointer or Reference variables
       
       System.out.println("Value of instance variable myVariable: "+obj.myVariable);
-      System.out.println("Value of static variable data: "+VariableExample.data);
+      System.out.println("Value of Reference variables myVariable: "+obj1.myVariable);
       System.out.println("Value of local variable a: "+a);
    }
 }
