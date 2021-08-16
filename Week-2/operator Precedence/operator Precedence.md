@@ -80,5 +80,5 @@ public class HighestPrecedence {
 ### Output
 ![output](https://static.javatpoint.com/core/images/highest-precedence-in-java2.png)
 ### Related Topics :</br>
-<https://www.tutorialspoint.com/prefix-and-postfix-expressions-in-data-structure>
-<https://www.geeksforgeeks.org/stack-set-4-evaluation-postfix-expression/>
+- <https://www.tutorialspoint.com/prefix-and-postfix-expressions-in-data-structure>
+- <https://www.geeksforgeeks.org/stack-set-4-evaluation-postfix-expression/>
