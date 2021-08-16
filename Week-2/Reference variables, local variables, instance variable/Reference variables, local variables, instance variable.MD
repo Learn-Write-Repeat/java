@@ -45,6 +45,6 @@ public class VariableExample{
 `Output :`
 ```
 Value of instance variable myVariable: 0
-Value of static variable data: 30
+Value of Reference variables myVariable: 0
 Value of local variable a: 100
 ```
