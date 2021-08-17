@@ -31,11 +31,11 @@ public class Constructors {
     // main() method contains the driver code.
     public static void main(String[] args) {
         
-        // Creating objects for Animal and Fruit.
+        // Creating objects for Animal.
         Animal myAnimal = new Animal();
         Animal myAnimal2 = new Animal("Orange");
 
-        // Printing the values of color in both classes.
+        // Printing the values of color in objects.
         System.out.println("myAnimal: color = " + myAnimal.color);
         System.out.println("myAnimal2: color = " + myAnimal2.color);
     }
