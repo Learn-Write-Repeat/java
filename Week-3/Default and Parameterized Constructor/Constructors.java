@@ -5,7 +5,7 @@
  * @date 2021/08/14
  */
 
-// Class Animal contains default constructor.
+// Class Animal contains default and parameterized constructor.
 class Animal {
 
     public String color;
@@ -16,17 +16,11 @@ class Animal {
         // Storing default value in instance variable.
         this.color = "Red";
     }
-}
-
-// Class Fruit contains parameterized constructor.
-class Fruit {
-
-    public String color;
-
+    
     // Parameterized constructor.
-    Fruit(String color) {
+    Animal(String color) {
 
-        // Storing the given value in instance variable.
+        // Storing given value in instance variable.
         this.color = color;
     }
 }
@@ -39,16 +33,16 @@ public class Constructors {
         
         // Creating objects for Animal and Fruit.
         Animal myAnimal = new Animal();
-        Fruit myFruit = new Fruit("Orange");
+        Animal myAnimal2 = new Animal("Orange");
 
         // Printing the values of color in both classes.
-        System.out.println("Animal: color = " + myAnimal.color);
-        System.out.println("Fruit: color = " + myFruit.color);
+        System.out.println("myAnimal: color = " + myAnimal.color);
+        System.out.println("myAnimal2: color = " + myAnimal2.color);
     }
 }
 
 /**
  * Output:
- * Animal: color = Red
- * Fruit: color = Orange
+ * myAnimal: color = Red
+ * myAnimal2: color = Orange
  */
