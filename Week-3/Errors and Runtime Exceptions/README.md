@@ -70,12 +70,12 @@ public class ExceptionError {
 ## Output
 ```
 Catched Exception: java.lang.ArithmeticException: / by zero
-Exception in thread "main" java.lang.StackOverflowError
-        at ErrorExample.exec(Main.java:39)
-        at ErrorExample.exec(Main.java:39)
-        at ErrorExample.exec(Main.java:39)
-        at ErrorExample.exec(Main.java:39)
-        at ErrorExample.exec(Main.java:39)
+Exception in thread "ExceptionError" java.lang.StackOverflowError
+        at ErrorExample.exec(ExceptionError.java:39)
+        at ErrorExample.exec(ExceptionError.java:39)
+        at ErrorExample.exec(ExceptionError.java:39)
+        at ErrorExample.exec(ExceptionError.java:39)
+        at ErrorExample.exec(ExceptionError.java:39)
 ...
 ```
   
