@@ -27,5 +27,6 @@ public class Assertions {
 
 /**
  * Output:
- * 
+ * Given Value: 7
+ * Given Value: 25
  */
