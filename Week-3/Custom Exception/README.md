@@ -66,6 +66,7 @@ public class CustomException {
 > *Note: You can find the above code on [CustomException.java](CustomException.java).*
   
   
+**Reference:** https://www.javatpoint.com/custom-exception  
 ## Output
 ```
 Catched Exception: InvalidAgeException: Age: 11 is not belongs to adult
