@@ -22,11 +22,11 @@ classes.
 `BlockingQueue` extends Queue with operations that wait for the queue to become nonempty
 when retrieving an element and for space to become available in the queue when storing an
 element. This interface is implemented by the following classes:
-- `LinkedBlockingQueue` — an optionally bounded FIFO blocking queue backed by linked nodes.
-- `ArrayBlockingQueue ` — a bounded FIFO blocking queue backed by an array.
-- `PriorityBlockingQue` — an unbounded blocking priority queue backed by a heap.
-- `DelayQueue ` — a time-based scheduling queue backed by a heap.
-- `SynchronousQueu` — a simple rendezvous mechanism that uses the `BlockingQueue` interface.
+- `LinkedBlockingQueue` \- an optionally bounded FIFO blocking queue backed by linked nodes.
+- `ArrayBlockingQueue` \- a bounded FIFO blocking queue backed by an array.
+- `PriorityBlockingQueue` \- an unbounded blocking priority queue backed by a heap.
+- `DelayQueue` \- a time-based scheduling queue backed by a heap.
+- `SynchronousQueue` \- a simple rendezvous mechanism that uses the `BlockingQueue` interface.
   
 
 ## Methods in Queue Interface
